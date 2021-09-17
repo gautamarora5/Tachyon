@@ -15,11 +15,11 @@ import time
 app = Flask(__name__)
 
 #configure mysql
-app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql6408730'
-app.config['MYSQL_PASSWORD'] = 'MIsYZFrXbN'
-app.config['MYSQL_DB'] = 'sql6408730'
-app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = ''
+app.config['MYSQL_CURSORCLASS'] = ''
 
 #initialize mysql
 mysql = MySQL(app)
